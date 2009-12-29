@@ -102,7 +102,7 @@
             this.MinimizeBox = false;
             this.Name = "f_about";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "About new PANW[10];";
+            this.Text = "About SAM[P]CE";
             this.TransparencyKey = System.Drawing.Color.Snow;
             this.ResumeLayout(false);
             this.PerformLayout();
