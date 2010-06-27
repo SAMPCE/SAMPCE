@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAMPCE", "SAMPCE\SAMPCE.csproj", "{C39FC7DE-BC51-42BA-8607-4ADCE81A106E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B87DDEF-DAEC-48CE-BA8D-4B431432EAD8} = {6B87DDEF-DAEC-48CE-BA8D-4B431432EAD8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newPT", "newPT\newPT.csproj", "{6B87DDEF-DAEC-48CE-BA8D-4B431432EAD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginHook", "PluginManager\PluginHook.csproj", "{F29C089C-4331-4047-B21D-6C2B6A708052}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C39FC7DE-BC51-42BA-8607-4ADCE81A106E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39FC7DE-BC51-42BA-8607-4ADCE81A106E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39FC7DE-BC51-42BA-8607-4ADCE81A106E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39FC7DE-BC51-42BA-8607-4ADCE81A106E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B87DDEF-DAEC-48CE-BA8D-4B431432EAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B87DDEF-DAEC-48CE-BA8D-4B431432EAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B87DDEF-DAEC-48CE-BA8D-4B431432EAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B87DDEF-DAEC-48CE-BA8D-4B431432EAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29C089C-4331-4047-B21D-6C2B6A708052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29C089C-4331-4047-B21D-6C2B6A708052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29C089C-4331-4047-B21D-6C2B6A708052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29C089C-4331-4047-B21D-6C2B6A708052}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
